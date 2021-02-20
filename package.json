@@ -5,12 +5,6 @@
     "type": "git",
     "url": "https://github.com/fana605/cordova-plugin-sharedwebcredential.git"
   },
-  "cordova": {
-    "id": "cordova-plugin-sharedwebcredential",
-    "platforms": [
-      "ios",
-    ]
-  },
   "description": "Shared Web Credential for Cordova iOS",
   "bugs": {
     "url": "https://github.com/fana605/cordova-plugin-sharedwebcredential/issues"
