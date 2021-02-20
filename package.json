@@ -1,6 +1,10 @@
 {
   "name": "cordova-plugin-sharedwebcredential",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fana605/cordova-plugin-sharedwebcredential.git"
+  },
   "cordova": {
     "id": "cordova-plugin-sharedwebcredential",
     "platforms": [
