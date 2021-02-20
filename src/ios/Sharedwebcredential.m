@@ -12,7 +12,7 @@
     NSString* username = [arguments objectAtIndex:1];
     NSString* password = [arguments objectAtIndex:2];
    
-    SecAddSharedWebCredential(CFSTR(server),
+    SecAddSharedWebCredential((__bridge CFStringRef)(server),
                                   (__bridge CFStringRef)(username),
                                   (__bridge CFStringRef)(password),
                                   ^(CFErrorRef error) {
