@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-sharedwebcredential"
-    version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-sharedwebcredential" version="1.0.0">
 
     <name>cordova-plugin-sharedwebcredential</name>
     <description>This plugin allows your app to save username/password do Keychain shared with website credentials.</description>
     <license>Apache 2.0</license>
     <keywords>sharedwebcredential,keychain</keywords>
+
+    <engines>
+      <engine name="cordova" version=">=3.2.0" />
+    </engines>
 
     <repo>https://github.com/fana605/cordova-plugin-sharedwebcredential.git</repo>
 

@@ -11,5 +11,8 @@
       "ios",
     ]
   },
-  "description": "Shared Web Credential for Cordova iOS"
+  "description": "Shared Web Credential for Cordova iOS",
+  "bugs": {
+    "url": "https://github.com/fana605/cordova-plugin-sharedwebcredential/issues"
+  }
 }
