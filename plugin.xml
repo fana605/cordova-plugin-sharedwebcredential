@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-sharedwebcredential"
+    version="1.0.0">
+
+    <name>Shared Web Credential for Cordova iOS</name>
+    <description>This plugin allows your app to save username/password do Keychain shared with website credentials.</description>
+    <license>Apache 2.0</license>
+    <keywords>sharedwebcredential,keychain</keywords>
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/plugin.js" name="plugin">
+            <runs/>
+            <clobbers target="Sharedwebcredential" />
+        </js-module>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="Sharedwebcredential">
+                <param name="ios-package" value="Sharedwebcredential" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/Sharedwebcredential.h" />
+        <source-file src="src/ios/Sharedwebcredential.m" />
+        <framework src="Security.framework" />
+    </platform>
+</plugin>
