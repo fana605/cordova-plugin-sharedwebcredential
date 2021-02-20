@@ -8,6 +8,8 @@
     <license>Apache 2.0</license>
     <keywords>sharedwebcredential,keychain</keywords>
 
+    <repo>https://github.com/fana605/cordova-plugin-sharedwebcredential.git</repo>
+
     <!-- ios -->
     <platform name="ios">
         <js-module src="www/plugin.js" name="plugin">
